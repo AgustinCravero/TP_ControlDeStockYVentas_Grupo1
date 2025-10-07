@@ -21,3 +21,4 @@ Registro de entrega: registrar una venta, ingresando el proveedor, y cada produc
 Reportes: 
 Reporte de ventas por período: mostrar el total de ventas realizadas dentro de un rango de fechas. 
 Reporte de stock bajo: listar los productos cuyo stock actual se encuentra por debajo de un nivel mínimo definido, permitiendo anticipar la reposición.
+Reporte de entregas por proveedor: Muestra todas las entregas realizadas por un proveedor dentro de un período, con detalle de productos, cantidades y fechas.
