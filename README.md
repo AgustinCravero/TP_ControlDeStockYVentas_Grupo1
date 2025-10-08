@@ -22,3 +22,6 @@ Reportes:
 Reporte de ventas por período: mostrar el total de ventas realizadas dentro de un rango de fechas. 
 Reporte de stock bajo: listar los productos cuyo stock actual se encuentra por debajo de un nivel mínimo definido, permitiendo anticipar la reposición.
 Reporte de entregas por proveedor: Muestra todas las entregas realizadas por un proveedor dentro de un período, con detalle de productos, cantidades y fechas.
+
+Integración de capas para guardar un registro en la base de datos: 
+En el sistema, cuando se quiere guardar un nuevo producto, desde el formulario de Windows Forms, el usuario escribe el nombre, el precio y la cantidad en los cuadros de texto y luego presiona el botón “Guardar”. Al hacer esto, el programa crea un objeto de tipo Producto con esos datos y llama a un método del repositorio que se encarga de guardarlo en la base de datos. El repositorio usa la clase AplicationDbContext, que tiene los DbSet de las tablas y dentro de ella está definido el connection string para conectarse directamente a la base de datos. Finalmente, cuando se ejecuta el método SaveChanges(), el sistema inserta el nuevo registro en la tabla correspondiente y el producto queda guardado en la base de datos, listo para ser consultado o modificado más adelante.
