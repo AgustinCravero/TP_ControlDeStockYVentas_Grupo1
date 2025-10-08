@@ -1,0 +1,15 @@
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.csproj.AssemblyReference.cache
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.GeneratedMSBuildEditorConfig.editorconfig
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.AssemblyInfoInputs.cache
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.AssemblyInfo.cs
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.csproj.CoreCompileInputs.cache
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.sourcelink.json
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\bin\Debug\net8.0\ClasesTP.deps.json
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\bin\Debug\net8.0\ClasesTP.runtimeconfig.json
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\bin\Debug\net8.0\ClasesTP.dll
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\bin\Debug\net8.0\ClasesTP.pdb
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.dll
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\refint\ClasesTP.dll
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.pdb
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.genruntimeconfig.cache
+C:\ejercicios\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ref\ClasesTP.dll
