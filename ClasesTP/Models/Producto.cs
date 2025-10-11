@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClasesTP.Models
 {
-    public class Venta
+    public class Producto
     {
         public int Id { get; set; }
-        public DateTime Fecha { get; set; }
-        public double MontoTotal { get; set; }
+        public string Nombre { get; set; }
+        public double Precio { get; set; }
+        public int Stock { get; set; }
         public List<DetalleVenta> DetallesVenta { get; set; } = new List<DetalleVenta>();
+        public List<DetalleEntrega> DetallesEntrega { get; set; } = new List<DetalleEntrega>();
     }
 }

@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ClasesTP")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FrontTP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a4ea0c0b233b5ae8326793ed72f15fd5cdf85b7")]
-[assembly: System.Reflection.AssemblyProductAttribute("ClasesTP")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ClasesTP")]
+[assembly: System.Reflection.AssemblyProductAttribute("FrontTP")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FrontTP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 
