@@ -6,5 +6,12 @@ namespace FrontTP
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 FormAltaProducto = new Form2();
+            FormAltaProducto.Show();
+            this.Hide();
+        }
     }
 }

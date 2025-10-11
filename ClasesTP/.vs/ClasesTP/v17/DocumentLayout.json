@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4BF9499-748A-472D-AD3C-72C455256BEB}|..\\FrontTP\\FrontTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\fronttp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\clasestp\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BF9499-748A-472D-AD3C-72C455256BEB}|..\\FrontTP\\FrontTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\fronttp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BF9499-748A-472D-AD3C-72C455256BEB}|..\\FrontTP\\FrontTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\fronttp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BF9499-748A-472D-AD3C-72C455256BEB}|..\\FrontTP\\FrontTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\fronttp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\clasestp\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\clasestp\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\clasestp\\models\\detalleentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:models\\detalleentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,23 +39,12 @@
       "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:models\\entregaproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\clasestp\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\clasestp\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\clasestp\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4BF9499-748A-472D-AD3C-72C455256BEB}|..\\FrontTP\\FrontTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\fronttp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|c:\\nueva carpeta\\tp_controldestockyventas_grupo1\\clasestp\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C33A0DE-8B94-4662-B3E1-293ADE96496A}|ClasesTP.csproj|solutionrelative:data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,72 +62,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\FrontTP\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\FrontTP\\Form1.cs",
+              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\FrontTP\\Form1.cs",
+              "RelativeToolTip": "..\\FrontTP\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T23:27:26.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\FrontTP\\Form2.cs",
+              "RelativeDocumentMoniker": "..\\FrontTP\\Form2.cs",
+              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\FrontTP\\Form2.cs",
+              "RelativeToolTip": "..\\FrontTP\\Form2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T23:11:23.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductoRepository.cs",
+              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T23:17:08.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\FrontTP\\Form2.cs",
+              "RelativeDocumentMoniker": "..\\FrontTP\\Form2.cs",
+              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\FrontTP\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\FrontTP\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T22:57:04.663Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DetalleEntrega.cs",
               "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\DetalleEntrega.cs",
               "RelativeDocumentMoniker": "Models\\DetalleEntrega.cs",
               "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\DetalleEntrega.cs",
               "RelativeToolTip": "Models\\DetalleEntrega.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T20:20:43.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EntregaProveedor.cs",
-              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\EntregaProveedor.cs",
-              "RelativeDocumentMoniker": "Models\\EntregaProveedor.cs",
-              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\EntregaProveedor.cs",
-              "RelativeToolTip": "Models\\EntregaProveedor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T20:19:56.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Proveedor.cs",
-              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\Proveedor.cs",
-              "RelativeDocumentMoniker": "Models\\Proveedor.cs",
-              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\Proveedor.cs",
-              "RelativeToolTip": "Models\\Proveedor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T20:18:31.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Models\\Producto.cs",
               "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\Producto.cs",
               "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T20:17:46.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DetalleVenta.cs",
-              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\DetalleVenta.cs",
-              "RelativeDocumentMoniker": "Models\\DetalleVenta.cs",
-              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\DetalleVenta.cs",
-              "RelativeToolTip": "Models\\DetalleVenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "Data\\AplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T20:09:20.887Z",
+              "WhenOpened": "2025-10-08T22:42:54.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\FrontTP\\Form1.cs",
               "RelativeDocumentMoniker": "..\\FrontTP\\Form1.cs",
@@ -126,7 +164,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "Models\\DetalleVenta.cs",
+              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\DetalleVenta.cs",
+              "RelativeToolTip": "Models\\DetalleVenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T20:09:20.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Models\\Proveedor.cs",
+              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\Proveedor.cs",
+              "RelativeToolTip": "Models\\Proveedor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T20:18:31.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntregaProveedor.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\EntregaProveedor.cs",
+              "RelativeDocumentMoniker": "Models\\EntregaProveedor.cs",
+              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\EntregaProveedor.cs",
+              "RelativeToolTip": "Models\\EntregaProveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T20:19:56.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Venta.cs",
               "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Models\\Venta.cs",
               "RelativeDocumentMoniker": "Models\\Venta.cs",
@@ -134,20 +208,7 @@
               "RelativeToolTip": "Models\\Venta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T22:29:21.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Data\\AplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AplicationDbContext.cs",
-              "ToolTip": "C:\\Nueva carpeta\\TP_ControlDeStockYVentas_Grupo1\\ClasesTP\\Data\\AplicationDbContext.cs",
-              "RelativeToolTip": "Data\\AplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T22:42:54.483Z"
+              "WhenOpened": "2025-10-08T22:29:21.577Z"
             }
           ]
         }
