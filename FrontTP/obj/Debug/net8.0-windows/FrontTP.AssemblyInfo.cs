@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrontTP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1209841d9eca561707c74f5a0ce0368b7b617943")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12c6e2bf7897c03b0a1f2d8c453541d62718ec22")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrontTP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrontTP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

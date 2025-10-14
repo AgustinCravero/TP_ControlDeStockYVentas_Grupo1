@@ -9,8 +9,8 @@ namespace FrontTP
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 FormAltaProducto = new Form2();
-            FormAltaProducto.Show();
+            Form3 FormProducto = new Form3();
+            FormProducto.Show();
             this.Hide();
         }
     }

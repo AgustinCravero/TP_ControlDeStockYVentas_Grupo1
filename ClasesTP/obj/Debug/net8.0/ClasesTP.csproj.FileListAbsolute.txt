@@ -28,3 +28,18 @@ C:\Nueva carpeta\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\refin
 C:\Nueva carpeta\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.pdb
 C:\Nueva carpeta\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.genruntimeconfig.cache
 C:\Nueva carpeta\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ref\ClasesTP.dll
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\bin\Debug\net8.0\ClasesTP.deps.json
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\bin\Debug\net8.0\ClasesTP.runtimeconfig.json
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\bin\Debug\net8.0\ClasesTP.dll
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\bin\Debug\net8.0\ClasesTP.pdb
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.csproj.AssemblyReference.cache
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.AssemblyInfoInputs.cache
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.AssemblyInfo.cs
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.csproj.CoreCompileInputs.cache
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.sourcelink.json
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.dll
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\refint\ClasesTP.dll
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.pdb
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ClasesTP.genruntimeconfig.cache
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\ClasesTP\obj\Debug\net8.0\ref\ClasesTP.dll
