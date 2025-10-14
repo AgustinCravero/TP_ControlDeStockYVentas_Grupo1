@@ -23,5 +23,22 @@ namespace ClasesTP.Repositories
             using var context = new AplicationDbContext();
             return context.Productos.ToList();
         }
+        public static void EliminarProducto (Producto producto)
+        {
+            using var context = new AplicationDbContext();
+            context.Productos.Remove(producto);
+            context.SaveChanges();
+        }
+        public static Producto ObtenerProductoPorId(int id)
+        {
+            using var context = new AplicationDbContext();
+            return context.Productos.FirstOrDefault(p => p.Id == id);
+        }
+        public static void ActualizarProducto(Producto producto)
+        {
+            using var context = new AplicationDbContext();
+            context.Productos.Update(producto);
+            context.SaveChanges();
+        }
     }
 }
