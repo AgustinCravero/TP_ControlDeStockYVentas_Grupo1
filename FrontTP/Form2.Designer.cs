@@ -35,22 +35,24 @@
             label3 = new Label();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(159, 77);
+            label1.Location = new Point(182, 103);
             label1.Name = "label1";
-            label1.Size = new Size(173, 15);
+            label1.Size = new Size(219, 20);
             label1.TabIndex = 0;
             label1.Text = "Ingrese el nombre del producto";
             // 
             // button1
             // 
-            button1.Location = new Point(255, 293);
+            button1.Location = new Point(291, 391);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(120, 35);
+            button1.Size = new Size(137, 47);
             button1.TabIndex = 1;
             button1.Text = "Guardar";
             button1.UseVisualStyleBackColor = true;
@@ -58,48 +60,62 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(366, 74);
+            textBox1.Location = new Point(418, 99);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(114, 27);
             textBox1.TabIndex = 2;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(159, 161);
+            label2.Location = new Point(182, 215);
             label2.Name = "label2";
-            label2.Size = new Size(164, 15);
+            label2.Size = new Size(209, 20);
             label2.TabIndex = 3;
             label2.Text = "Ingrese el precio del producto";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(159, 231);
+            label3.Location = new Point(182, 308);
             label3.Name = "label3";
-            label3.Size = new Size(146, 15);
+            label3.Size = new Size(185, 20);
             label3.TabIndex = 4;
             label3.Text = "Ingrese el stock disponible";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(366, 158);
+            textBox2.Location = new Point(418, 211);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(114, 27);
             textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(366, 228);
+            textBox3.Location = new Point(418, 304);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
+            textBox3.Size = new Size(114, 27);
             textBox3.TabIndex = 6;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(654, 507);
+            button2.Name = "button2";
+            button2.Size = new Size(214, 55);
+            button2.TabIndex = 7;
+            button2.Text = "Volver al menú principal";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
+            Controls.Add(button2);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(label3);
@@ -107,6 +123,7 @@
             Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form2";
             Text = "Form2";
             ResumeLayout(false);
@@ -122,5 +139,6 @@
         private Label label3;
         private TextBox textBox2;
         private TextBox textBox3;
+        private Button button2;
     }
 }

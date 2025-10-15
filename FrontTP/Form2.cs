@@ -23,12 +23,19 @@ namespace FrontTP
         {
             Producto producto = new Producto
                 (
-                textBox1.Text, 
-                Convert.ToDouble(textBox2.Text), 
+                textBox1.Text,
+                Convert.ToDouble(textBox2.Text),
                 Convert.ToInt32(textBox3.Text)
                 );
             ProductoRepository.GuardarProducto(producto);
-            MessageBox.Show("Producto guardado con exito"); 
+            MessageBox.Show("Producto guardado con exito");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Application.OpenForms["Form1"].Show();
+            this.Close();
         }
     }
 }

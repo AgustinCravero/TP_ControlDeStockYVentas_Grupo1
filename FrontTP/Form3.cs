@@ -44,5 +44,12 @@ namespace FrontTP
             FormVerProducto.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Application.OpenForms["Form1"].Show();
+            this.Close();
+        }
     }
 }

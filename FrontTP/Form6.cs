@@ -31,5 +31,12 @@ namespace FrontTP
 
             dataGridView1.DataSource = lista;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Application.OpenForms["Form1"].Show();
+            this.Close();
+        }
     }
 }

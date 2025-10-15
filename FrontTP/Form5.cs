@@ -27,22 +27,11 @@ namespace FrontTP
             comboBox1.DisplayMember = "Nombre";
             comboBox1.ValueMember = "Id";
         }
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            int idSeleccionado = (int)comboBox1.SelectedValue;
-            var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);
-
-            if (producto != null)
-            {
-                textBox1.Text = producto.Nombre;
-                textBox2.Text = producto.Precio.ToString();
-                textBox3.Text = producto.Stock.ToString();
-            }
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int idSeleccionado = (int)comboBox1.SelectedValue;
+            int idSeleccionado = Convert.ToInt32(comboBox1.SelectedValue);//(int)comboBox1.SelectedValue;
             var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);
 
             producto.Nombre = textBox1.Text;
@@ -51,6 +40,29 @@ namespace FrontTP
 
             ProductoRepository.ActualizarProducto(producto);
             MessageBox.Show("Producto actualizado correctamente");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Application.OpenForms["Form1"].Show();
+            this.Close();
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedValue == null || comboBox1.SelectedValue is DataRowView)
+                return;
+
+            int idSeleccionado = int.Parse(comboBox1.SelectedValue.ToString());
+            var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);
+
+            if (producto != null)
+            {
+                textBox1.Text = producto.Nombre;
+                textBox2.Text = producto.Precio.ToString();
+                textBox3.Text = producto.Stock.ToString();
+            }
         }
     }
 }

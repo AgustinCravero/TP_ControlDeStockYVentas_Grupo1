@@ -37,6 +37,7 @@
             label3 = new Label();
             label4 = new Label();
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // comboBox1
@@ -46,6 +47,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(272, 28);
             comboBox1.TabIndex = 0;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
             // 
             // label1
             // 
@@ -114,11 +116,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(637, 589);
+            button2.Name = "button2";
+            button2.Size = new Size(216, 62);
+            button2.TabIndex = 9;
+            button2.Text = "Volver al menú principal";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(858, 600);
+            ClientSize = new Size(865, 663);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -146,5 +159,6 @@
         private Label label3;
         private Label label4;
         private Button button1;
+        private Button button2;
     }
 }

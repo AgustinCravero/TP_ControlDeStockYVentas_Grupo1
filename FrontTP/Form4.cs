@@ -32,5 +32,12 @@ namespace FrontTP
             ProductoRepository.EliminarProducto(producto);
             MessageBox.Show("Producto eliminado con exito");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Application.OpenForms["Form1"].Show();
+            this.Close();
+        }
     }
 }

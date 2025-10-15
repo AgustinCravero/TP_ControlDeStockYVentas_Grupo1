@@ -13,5 +13,10 @@ namespace FrontTP
             FormProducto.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
