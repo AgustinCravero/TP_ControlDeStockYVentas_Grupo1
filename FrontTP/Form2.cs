@@ -29,6 +29,9 @@ namespace FrontTP
                 );
             ProductoRepository.GuardarProducto(producto);
             MessageBox.Show("Producto guardado con exito");
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)

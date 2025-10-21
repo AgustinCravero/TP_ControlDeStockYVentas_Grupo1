@@ -132,3 +132,5 @@ C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVen
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form4.resources
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form5.resources
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form6.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form7.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form8.resources

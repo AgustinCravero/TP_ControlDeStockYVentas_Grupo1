@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ClasesTP.Models;
 using ClasesTP.Repositories;
+using System.Runtime.InteropServices;
 
 namespace FrontTP
 {
@@ -33,7 +34,7 @@ namespace FrontTP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int idSeleccionado = Convert.ToInt32(comboBox1.SelectedValue);//(int)comboBox1.SelectedValue;
+            int idSeleccionado = Convert.ToInt32(comboBox1.SelectedValue);
             var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);
 
             producto.Nombre = textBox1.Text;
@@ -42,6 +43,9 @@ namespace FrontTP
 
             ProductoRepository.ActualizarProducto(producto);
             MessageBox.Show("Producto actualizado correctamente");
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)
