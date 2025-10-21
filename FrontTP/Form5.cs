@@ -23,11 +23,13 @@ namespace FrontTP
         private void Form5_Load(object sender, EventArgs e)
         {
             var productos = ProductoRepository.ObtenerProductos();
+
             comboBox1.DataSource = productos;
             comboBox1.DisplayMember = "Nombre";
             comboBox1.ValueMember = "Id";
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
         }
-        
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -54,15 +56,19 @@ namespace FrontTP
             if (comboBox1.SelectedValue == null || comboBox1.SelectedValue is DataRowView)
                 return;
 
-            int idSeleccionado = int.Parse(comboBox1.SelectedValue.ToString());
-            var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);
-
-            if (producto != null)
+            int idSeleccionado;
+            if (int.TryParse(comboBox1.SelectedValue.ToString(), out idSeleccionado))
             {
-                textBox1.Text = producto.Nombre;
-                textBox2.Text = producto.Precio.ToString();
-                textBox3.Text = producto.Stock.ToString();
+                var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);
+
+                if (producto != null)
+                {
+                    textBox1.Text = producto.Nombre;
+                    textBox2.Text = producto.Precio.ToString("0.00");
+                    textBox3.Text = producto.Stock.ToString();
+                }
             }
         }
+
     }
 }
