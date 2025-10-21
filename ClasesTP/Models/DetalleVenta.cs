@@ -16,5 +16,13 @@ namespace ClasesTP.Models
         public double Subtotal { get; set; }
         public Venta Venta { get; set; }
         public Producto Producto { get; set; }
+        public DetalleVenta() { }
+        public DetalleVenta (int ProductoId, int Cantidad, double PrecioUnitario)
+        {
+            this.ProductoId = ProductoId;
+            this.Cantidad = Cantidad;
+            this.PrecioUnitario = PrecioUnitario;
+            this.Subtotal = Cantidad * PrecioUnitario;
+        }
     }
 }

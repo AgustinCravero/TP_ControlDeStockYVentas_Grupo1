@@ -12,5 +12,11 @@ namespace ClasesTP.Models
         public DateTime Fecha { get; set; }
         public double MontoTotal { get; set; }
         public List<DetalleVenta> DetallesVenta { get; set; } = new List<DetalleVenta>();
+        public Venta() { }
+        public Venta(DateTime Fecha)
+        {
+            this.Fecha = Fecha;
+            MontoTotal = 0;
+        }
     }
 }
