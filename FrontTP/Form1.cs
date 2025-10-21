@@ -18,5 +18,12 @@ namespace FrontTP
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form7 FormVenta = new Form7();
+            FormVenta.Show();
+            this.Hide();
+        }
     }
 }
