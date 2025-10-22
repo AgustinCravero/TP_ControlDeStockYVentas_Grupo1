@@ -16,5 +16,33 @@ namespace FrontTP
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Application.OpenForms["Form1"].Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form12 FormNuevoProveedor = new Form12();
+            FormNuevoProveedor.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form13 FormEliminarProveedor = new Form13();
+            FormEliminarProveedor.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form14 FormModificarProveedor = new Form14();
+            FormModificarProveedor.Show();
+            this.Hide();
+        }
     }
 }

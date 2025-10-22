@@ -25,5 +25,12 @@ namespace FrontTP
             FormVenta.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form11 FormProveedor = new Form11();
+            FormProveedor.Show();
+            this.Hide();
+        }
     }
 }
