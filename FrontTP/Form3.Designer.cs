@@ -33,11 +33,12 @@
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
+            button6 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(398, 77);
+            button1.Location = new Point(398, 25);
             button1.Name = "button1";
             button1.Size = new Size(184, 52);
             button1.TabIndex = 0;
@@ -47,7 +48,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(398, 172);
+            button2.Location = new Point(398, 120);
             button2.Name = "button2";
             button2.Size = new Size(184, 52);
             button2.TabIndex = 1;
@@ -57,7 +58,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(398, 277);
+            button3.Location = new Point(398, 225);
             button3.Name = "button3";
             button3.Size = new Size(184, 52);
             button3.TabIndex = 2;
@@ -67,7 +68,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(398, 388);
+            button4.Location = new Point(398, 336);
             button4.Name = "button4";
             button4.Size = new Size(184, 52);
             button4.TabIndex = 3;
@@ -85,11 +86,22 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // button6
+            // 
+            button6.Location = new Point(398, 436);
+            button6.Name = "button6";
+            button6.Size = new Size(184, 52);
+            button6.TabIndex = 5;
+            button6.Text = "Reporte de stock bajo";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1024, 553);
+            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -107,5 +119,6 @@
         private Button button3;
         private Button button4;
         private Button button5;
+        private Button button6;
     }
 }

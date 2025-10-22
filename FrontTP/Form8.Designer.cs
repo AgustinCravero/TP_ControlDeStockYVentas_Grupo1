@@ -73,6 +73,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 27);
             textBox1.TabIndex = 3;
+            textBox1.TextChanged += textBox1_TextChanged;
             textBox1.KeyPress += textBox1_KeyPress;
             // 
             // button2

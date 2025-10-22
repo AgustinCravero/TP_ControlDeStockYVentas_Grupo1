@@ -117,6 +117,11 @@ C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVen
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form1.resources
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form2.resources
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form3.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form4.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form5.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form6.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form7.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form8.resources
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.csproj.GenerateResource.cache
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.GeneratedMSBuildEditorConfig.editorconfig
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.AssemblyInfoInputs.cache
@@ -129,8 +134,5 @@ C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVen
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.pdb
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.genruntimeconfig.cache
 C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\ref\FrontTP.dll
-C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form4.resources
-C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form5.resources
-C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form6.resources
-C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form7.resources
-C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form8.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form9.resources
+C:\Agustín Cravero - Desarrollo de Software\Programacion1\TP_ControlDeStockYVentas_Grupo1\FrontTP\obj\Debug\net8.0-windows\FrontTP.Form10.resources

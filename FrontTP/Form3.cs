@@ -51,5 +51,12 @@ namespace FrontTP
             Application.OpenForms["Form1"].Show();
             this.Close();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form9 FormReporteStockBajo = new Form9();
+            FormReporteStockBajo.Show();
+            this.Hide();
+        }
     }
 }

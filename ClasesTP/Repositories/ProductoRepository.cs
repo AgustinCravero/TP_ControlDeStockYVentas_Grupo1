@@ -40,5 +40,12 @@ namespace ClasesTP.Repositories
             context.Productos.Update(producto);
             context.SaveChanges();
         }
+        public static List<Producto> ObtenerProductosConStockMenorA(int limite)
+        {
+            using (var context = new AplicationDbContext())
+                return context.Productos
+                              .Where(p => p.Stock <= limite)
+                              .ToList();
+        }
     }
 }

@@ -21,6 +21,21 @@ namespace FrontTP
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(textBox1.Text))
+            {
+                MessageBox.Show("Ingrese un nombre.");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Ingrese un precio.");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(textBox3.Text))
+            {
+                MessageBox.Show("Ingrese un stock.");
+                return;
+            }
             Producto producto = new Producto
                 (
                 textBox1.Text,
@@ -39,6 +54,23 @@ namespace FrontTP
             this.Hide();
             Application.OpenForms["Form1"].Show();
             this.Close();
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != ',')
+            {
+                e.Handled = true;
+            }
+            if (e.KeyChar == ',' && ((TextBox)sender).Text.Contains(","))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
     }
 }

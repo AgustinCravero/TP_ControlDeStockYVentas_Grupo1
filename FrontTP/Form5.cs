@@ -34,6 +34,21 @@ namespace FrontTP
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(textBox1.Text))
+            {
+                MessageBox.Show("Ingrese un nombre.");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Ingrese un precio.");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(textBox3.Text))
+            {
+                MessageBox.Show("Ingrese un stock.");
+                return;
+            }
             int idSeleccionado = Convert.ToInt32(comboBox1.SelectedValue);
             var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);
 
@@ -57,6 +72,7 @@ namespace FrontTP
 
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
+
             if (comboBox1.SelectedValue == null || comboBox1.SelectedValue is DataRowView)
                 return;
 
@@ -74,5 +90,21 @@ namespace FrontTP
             }
         }
 
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != ',')
+            {
+                e.Handled = true;
+            }
+            if (e.KeyChar == ',' && ((TextBox)sender).Text.Contains(","))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
     }
 }

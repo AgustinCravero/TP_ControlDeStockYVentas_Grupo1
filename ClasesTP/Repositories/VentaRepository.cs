@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace ClasesTP.Repositories
 {
@@ -28,6 +29,13 @@ namespace ClasesTP.Repositories
                 }
             }
             context.SaveChanges();
+        }
+        public static List<Venta> ObtenerVentasPorRango(DateTime desde, DateTime hasta)
+        {
+            using var context = new AplicationDbContext();
+                return context.Ventas
+                    .Where(v => v.Fecha >= desde && v.Fecha <= hasta)
+                    .ToList();
         }
     }
 }

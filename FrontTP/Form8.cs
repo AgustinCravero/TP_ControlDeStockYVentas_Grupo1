@@ -86,7 +86,12 @@ namespace FrontTP
             {
                 MontoTotal = montoTotal
             };
+
             VentaRepository.GuardarVenta(venta);
+            MessageBox.Show("Venta guardada correctamente.");
+            this.Hide();
+            Application.OpenForms["Form1"].Show();
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -94,6 +99,11 @@ namespace FrontTP
             this.Hide();
             Application.OpenForms["Form1"].Show();
             this.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
