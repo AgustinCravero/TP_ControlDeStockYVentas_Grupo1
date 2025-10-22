@@ -1,0 +1,36 @@
+﻿using ClasesTP.Repositories;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace FrontTP
+{
+    public partial class Form15 : Form
+    {
+        public Form15()
+        {
+            InitializeComponent();
+        }
+
+        private void Form15_Load(object sender, EventArgs e)
+        {
+            var lista = ProveedorRepository.ObtenerProveedores()
+                .Select(p => new
+                {
+                    p.Nombre,
+                    p.Telefono,
+                    p.Email, 
+                    p.Direccion
+                })
+                .ToList();
+
+            dataGridView1.DataSource = lista;
+        }
+    }
+}

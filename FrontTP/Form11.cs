@@ -44,5 +44,12 @@ namespace FrontTP
             FormModificarProveedor.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form15 FormVerProveedores = new Form15();
+            FormVerProveedores.Show();
+            this.Hide();
+        }
     }
 }
