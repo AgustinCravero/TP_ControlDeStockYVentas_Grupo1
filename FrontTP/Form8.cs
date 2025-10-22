@@ -52,9 +52,18 @@ namespace FrontTP
                 return;
             }
 
-            if (cantidad > producto.Stock)
+            /*if (cantidad > producto.Stock)
             {
                 MessageBox.Show("Stock insuficiente.");
+                return;
+            }*/
+            int cantidadYaAgregada = listaDetalles
+                .Where(d => d.Producto.Id == producto.Id)
+                .Sum(d => d.Cantidad);
+            if (cantidadYaAgregada + cantidad > producto.Stock)
+            {
+                MessageBox.Show("Stock insuficiente. Ya hay " + cantidadYaAgregada +
+                                " unidades agregadas de este producto.");
                 return;
             }
             var detalle = new DetalleVenta(producto.Id, cantidad, producto.Precio);

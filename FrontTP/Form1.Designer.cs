@@ -31,7 +31,6 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            button4 = new Button();
             button5 = new Button();
             SuspendLayout();
             // 
@@ -48,7 +47,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(370, 196);
+            button2.Location = new Point(370, 213);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(197, 45);
@@ -59,7 +58,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(370, 307);
+            button3.Location = new Point(370, 342);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(197, 45);
@@ -68,19 +67,9 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // button4
-            // 
-            button4.Location = new Point(370, 435);
-            button4.Margin = new Padding(3, 4, 3, 4);
-            button4.Name = "button4";
-            button4.Size = new Size(197, 45);
-            button4.TabIndex = 3;
-            button4.Text = "Entrega";
-            button4.UseVisualStyleBackColor = true;
-            // 
             // button5
             // 
-            button5.Location = new Point(705, 542);
+            button5.Location = new Point(705, 474);
             button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
             button5.Size = new Size(197, 45);
@@ -93,9 +82,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(914, 532);
             Controls.Add(button5);
-            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -110,7 +98,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private Button button4;
         private Button button5;
     }
 }
