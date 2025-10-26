@@ -14,8 +14,6 @@ namespace ClasesTP.Data
         public DbSet<Producto> Productos { get; set; }
         public DbSet<DetalleVenta> DetallesVenta { get; set; }
         public DbSet<Proveedor> Proveedores { get; set; }
-        public DbSet<EntregaProveedor> EntregasProveedor { get; set; }
-        public DbSet<DetalleEntrega> DetallesEntrega { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(

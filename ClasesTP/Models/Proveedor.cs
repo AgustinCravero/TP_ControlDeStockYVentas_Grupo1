@@ -12,8 +12,7 @@ namespace ClasesTP.Models
         public string Nombre { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }
-        public string Email { get; set; }
-        public List<EntregaProveedor> Entregas { get; set; } = new List<EntregaProveedor>(); 
+        public string Email { get; set; } 
         public Proveedor() { }
         public Proveedor(string Nombre, string Telefono, string Direccion, string Email)
         {

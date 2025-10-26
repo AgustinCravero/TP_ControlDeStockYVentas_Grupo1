@@ -13,7 +13,6 @@ namespace ClasesTP.Models
         public double Precio { get; set; }
         public int Stock { get; set; }
         public List<DetalleVenta> DetallesVenta { get; set; } = new List<DetalleVenta>();
-        public List<DetalleEntrega> DetallesEntrega { get; set; } = new List<DetalleEntrega>();
         public Producto() { }
         public Producto (string Nombre, double Precio, int Stock)
         {
