@@ -77,6 +77,11 @@ namespace FrontTP
                 MessageBox.Show("Ingrese una dirección.");
                 return;
             }
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar un proveedor para modificarlo.");
+                return;
+            }
             int idSeleccionado = Convert.ToInt32(comboBox1.SelectedValue);
             var proveedor = ProveedorRepository.ObtenerProveedorPorId(idSeleccionado);
 

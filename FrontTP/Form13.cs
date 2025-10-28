@@ -34,9 +34,18 @@ namespace FrontTP
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar un proveedor antes de eliminar.");
+                return;
+            }
             Proveedor proveedor = (Proveedor)comboBox1.SelectedItem;
             ProveedorRepository.EliminarProveedor(proveedor);
             MessageBox.Show("Proveedor eliminado con exito");
+            comboBox1.DataSource = null;
+            comboBox1.DataSource = ProveedorRepository.ObtenerProveedores();
+            comboBox1.DisplayMember = "Nombre";
+            comboBox1.SelectedItem = null;
         }
     }
 }

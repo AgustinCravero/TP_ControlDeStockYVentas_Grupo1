@@ -43,6 +43,11 @@ namespace FrontTP
                 MessageBox.Show("Ingrese una cantidad.");
                 return;
             }
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar un producto para agregarlo a la venta.");
+                return;
+            }
             int cantidad = int.Parse(textBox1.Text);
             int idSeleccionado = Convert.ToInt32(comboBox1.SelectedValue);
             var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);

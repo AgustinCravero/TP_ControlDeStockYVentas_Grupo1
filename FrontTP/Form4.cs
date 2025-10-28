@@ -28,9 +28,18 @@ namespace FrontTP
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar un producto antes de eliminar.");
+                return;
+            }
             Producto producto = (Producto)comboBox1.SelectedItem;
             ProductoRepository.EliminarProducto(producto);
             MessageBox.Show("Producto eliminado con exito");
+            comboBox1.DataSource = null;
+            comboBox1.DataSource = ProductoRepository.ObtenerProductos();
+            comboBox1.DisplayMember = "Nombre";
+            comboBox1.SelectedItem = null;
         }
 
         private void button2_Click(object sender, EventArgs e)

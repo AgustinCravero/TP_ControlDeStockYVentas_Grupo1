@@ -47,5 +47,18 @@ namespace ClasesTP.Repositories
                               .Where(p => p.Stock <= limite)
                               .ToList();
         }
+        public static bool ValidarExistenciaProducto(Producto producto)
+        {
+            using var context = new AplicationDbContext();
+            var existe = context.Productos.FirstOrDefault(p => p.Nombre.Trim().ToLower() == producto.Nombre.Trim().ToLower());
+            if (existe != null)
+            {
+                return true; 
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

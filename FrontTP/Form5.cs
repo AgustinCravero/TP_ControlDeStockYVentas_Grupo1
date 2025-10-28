@@ -49,6 +49,11 @@ namespace FrontTP
                 MessageBox.Show("Ingrese un stock.");
                 return;
             }
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar un producto para modificarlo.");
+                return;
+            }
             int idSeleccionado = Convert.ToInt32(comboBox1.SelectedValue);
             var producto = ProductoRepository.ObtenerProductoPorId(idSeleccionado);
 

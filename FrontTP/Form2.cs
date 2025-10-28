@@ -42,6 +42,11 @@ namespace FrontTP
                 Convert.ToDouble(textBox2.Text),
                 Convert.ToInt32(textBox3.Text)
                 );
+            if (ProductoRepository.ValidarExistenciaProducto(producto))
+            {
+                MessageBox.Show("Ya existe un producto con ese nombre.");
+                return;
+            }
             ProductoRepository.GuardarProducto(producto);
             MessageBox.Show("Producto guardado con exito");
             textBox1.Clear();
